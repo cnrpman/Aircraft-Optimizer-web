@@ -1,0 +1,83 @@
+@media screen and (max-width: 480px){
+	.desktop_only{
+		display:none;
+	}
+}
+
+.bg_w
+{
+	width:100%;
+}
+
+.bg_h
+{
+	height:100%;
+}
+
+.bgpic_url_0_color{
+	background-image:url("../image/bg_0_color.jpg");
+	background-position: inherit;
+	background-size: inherit;
+	background-attachment:inherit;
+	
+	-webkit-mask-image: -webkit-gradient(
+    linear, center top, center bottom, 
+    color-stop(0.00,  rgba(0,0,0,1)),
+	color-stop(0.25,  rgba(0,0,0,1)),
+	color-stop(0.7,  rgba(0,0,0,0)),
+    color-stop(1.00,  rgba(0,0,0,0)));
+}
+
+.bgpic_url_0_blue{
+	background-image:url("../image/bg_0_blue.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-attachment:fixed;
+}
+
+#bgwhite{
+	position:absolute;
+	bottom:0;
+	height: 35%;
+	
+	background:linear-gradient( to bottom, transparent, white);
+}
+
+#text_holder{
+	position:absolute;
+	bottom:5em;
+	padding-left:2%;
+}
+
+#mid_pic{
+	position:absolute;
+	
+	height: 35em;
+	left:58%;
+	bottom:0;
+}
+
+p.title
+{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 4em;
+	line-height:90%;
+	font-variant:small-caps;
+	letter-spacing: -0.05em;
+	color: #000;
+	text-shadow:
+    -0.01em -0.01em 0em #fff,
+    0.01em -0.01em 0em #fff,
+    -0.01em 0.01em 0em #fff,
+    0.01em 0.01em 0em #fff;
+	margin-bottom: -0.1em;
+}
+
+div.text,p.text
+{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.5em;
+	color: #000;
+	text-shadow:
+    0.025em 0.025em 0em #fff;
+}

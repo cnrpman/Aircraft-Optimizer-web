@@ -1,73 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html class="bg_h">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=0.8, user-scalable=no">
 		<title>烈风?不知道的孩子呢.</title>
 		<link rel="shortcut icon" href="acc.ico" type="image/x-icon" />
-		<link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.css">
-		<link rel="stylesheet" href="./css/acc.css">
-		</style>
-
-
+		<link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.css" />
+		<link rel="stylesheet" href="./css/acc.css" />
+		<link rel="stylesheet" href="./css/cover.css" />
 	</head>
-	<body>
+	<body class="bg_h">
 <!--header-->
 	<div class="ucantsee" id="ucantseeme"></div>
 	<div class="ucantsee" id="ucantseemetoo"></div>
-
-	<nav class="navbar navbar-default navbar-fixed-top boxshadow">
-	  <div class="container-fluid">
-	    <!-- Brand and toggle get grouped for better mobile display -->
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	      <a class="navbar-brand" href="#">KanColle Aircraft Calculator</a>
-	    </div>
-
-	    <!-- Collect the nav links, forms, and other content for toggling -->
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-nav" id="topbar">
-	        <li class="active" id="littleblock"><a href="http://www.rpman.net/aircraft-calc-manual/" target="_blank">使用说明<span class="sr-only">(current)</span></a></li>
-		      <li><a href="http://bbs.ngacn.cc/read.php?tid=7991852" target="_blank">NGA发布贴</a></li>
-		      <li><a href="https://github.com/cnrpman/kc_aircraftOptimize" target="_blank">GitHub</a></li>
-		  </ul>
-		  <ul class="nav navbar-nav navbar-right" id="topbarright">
-		  	<li class="dropdown">
-	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">友情链接<span class="caret"></span></a>
-	          <ul class="dropdown-menu">
-	            <li><a href="http://bbs.ngacn.cc/thread.php?fid=-7202235" target="_blank">NGA::舰队collection</a></li>
-	            <li role="separator" class="divider"></li>
-	            <li><a href="http://syalon.sinaapp.com/" target="_blank">Syalon的舰娘资料</a></li>
-	          </ul>
-	        </li>
-	      </ul>
-	    </div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
-	</nav>
-	<main class="bs-docs-masthead" id="summary">
-		<div class="container">
-			<div class="col-sm-6" id="summarytext">
-				 <h3><b>烈风?不知道的孩子呢.</b></h3>
-				<br>
-				<h5>--空母自动配装工具<h5>
-				<br>
-				<br>
-				<br>
-				<p>这是一个根据空母和舰载机计算出<strong>满足指定制空值</strong>的<strong>火力优化配置</strong>的工具</p>
-					<br>
-					<br>
-					<p><strong>2016.8.15</strong> 更新意大利航母Aquila(飞机部分稍后)</p>
-					<p><strong>2015.11.3</strong> 增加第一格开幕伤害+9.09%的buff</p>
-					<p><strong>2015.9.26</strong> 更新熟练度(假设所有飞机都是+7),更科学的计算方式请等待新版(卫星起飞中)</p>
-					<p><strong>2015.6.11</strong> 更新为新公式，添加了火力显示（为+5且考虑阈值后的火力）</p>
-					<p><strong>2015.5.9</strong> 提高了运行效率,目前去除了攻击机数量上的限制.</p>
-			</div>
+	
+	<main class="bg_h bs-docs-masthead">
+	  <div class="bg_w bg_h bgpic_url_0_blue">
+	    <div class="bg_w bg_h bgpic_url_0_color">
 		</div>
+	  </div>
+	  <div class="bg_w" id="bgwhite"></div>
+	  <img id="mid_pic" src="image/shokaku.png"/>
+	  <div id="text_holder" class="text">
+	    <p class="title">Aircraft Optimizer for Kancolle</p>
+		<p>A highly pruned search to find out the best arrangement for carrier-based aircrafts in Kantai Collection.</p>
+	    <div class="desktop_only">
+			<p><b>Events:</b></p>
+			<p><i>08/15/2016</i> New carriers & aircrafts are available.</p>
+			<p><i>11/13/2015</i> Damage bonus for the attackers in the first-slots is added.</p>
+			<p><i>09/26/2015</i> Aircraft Proficiency (a new system in Kancolle) is concerned.</p>
+			<p><i>03/08/2015</i> Service is available.</p>
+		</div>
+	  </div>
 	</main>
 
 <!--body-->
@@ -191,17 +155,7 @@
 
 	<script src="./script/template.js"></script>
 	<script src="./script/acc.js"></script>
-
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-72678914-1', 'auto');
-	  ga('send', 'pageview');
-
-	</script>
+	<script src="./script/ie_fixer.js"></script>
 			
 	</body>
 

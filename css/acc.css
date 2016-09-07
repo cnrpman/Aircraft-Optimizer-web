@@ -47,20 +47,6 @@ strong {
 	padding:40px 40px 40px 40px;
 }
 
-#summary{
-	color: #FFFFFF;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-
-    text-shadow: 1px 1px 4px #000;
-	padding-top: 150px;
-
-	height:600px;
-
-	border-bottom: 1px solid #DDD;
-}
-
 #summary strong{
 	color: #FFFFFF;
 }
@@ -99,20 +85,7 @@ strong {
 	text-align: center;
 }
 
-.blur{
-	overflow: hidden;
-	margin-top: -3px;
-	
-    -webkit-filter: blur(3px); 
-       -moz-filter: blur(3px);
-        -ms-filter: blur(3px);    
-            filter: blur(3px);
-}
-
 #footerholder{
-	position:relative;
-	top:0;
-	left:0;
 }
 
 #footer{
@@ -134,19 +107,6 @@ strong {
 	left:0;
 	width:100%;
 	background-color:#FFFFFF;
-}
-
-#footertext{
-    text-shadow: 1px 1px 3px #000;
-	color:#FFFFFF;
-
-	width:100%;
-
-	position:absolute;
-	top:30%;
-	left:0;
-
-	text-align: center;
 }
 
 #hioptions{
