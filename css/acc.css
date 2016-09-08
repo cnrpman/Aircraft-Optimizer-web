@@ -127,7 +127,6 @@ strong {
 }
 .bgcolor0,#topbar.bgcolor0 a{
 	color:#917959;
-	background-color: #FFFFFF;
 	border-color: #917959;
 }
 .bgcolor0.btn:hover,.bgcolor0.btn:focus,#littleblock.bgcolor0>a,#footer.bgcolor0{
@@ -138,102 +137,6 @@ strong {
 .input-group-addon{
 	background-color: #FFFFFF;
 	border-color: #EEEEEE;
-}
-
-.bgpic1{
-	background-image:url("http://7xnkwe.com1.z0.glb.clouddn.com/43133531.jpg");
-	background-color: #7AADE1;
-	background-position: center center;
-}
-.bgcolor1,#topbar.bgcolor1 a{
-	color:#7AADE1;
-	background-color: #FFFFFF;
-	border-color: #7AADE1;
-}
-.bgcolor1.btn:hover,.bgcolor1.btn:focus,#littleblock.bgcolor1>a,#footer.bgcolor1{
-	color:#FFFFFF;
-	background-color: #7AADE1;
-	border-color: #7AADE1;
-}
-
-.bgpic2{
-	background-image:url("http://7xnkwe.com1.z0.glb.clouddn.com/45464867.jpg");
-	background-color: #777174;
-	background-position: center center;
-}
-.bgcolor2,#topbar.bgcolor2 a{
-	color:#777174;
-	background-color: #FFFFFF;
-	border-color: #777174;
-}
-.bgcolor2.btn:hover,.bgcolor2.btn:focus,#littleblock.bgcolor2>a,#footer.bgcolor2{
-	color:#FFFFFF;
-	background-color: #777174;
-	border-color: #777174;
-}
-
-.bgpic3{
-	background-image:url("http://7xnkwe.com1.z0.glb.clouddn.com/45504459.jpg");
-	background-color: #777174;
-	background-position: center center;
-}
-.bgcolor3,#topbar.bgcolor3 a{
-	color:#777174;
-	background-color: #FFFFFF;
-	border-color: #777174;
-}
-.bgcolor3.btn:hover,.bgcolor3.btn:focus,#littleblock.bgcolor3>a,#footer.bgcolor3{
-	color:#FFFFFF;
-	background-color: #777174;
-	border-color: #777174;
-}
-
-.bgpic4{
-	background-image:url("http://7xnkwe.com1.z0.glb.clouddn.com/45781130.jpg");
-	background-color: #4D8896;
-	background-position: center right;
-}
-.bgcolor4,#topbar.bgcolor4 a{
-	color:#4D8896;
-	background-color: #FFFFFF;
-	border-color: #4D8896;
-}
-.bgcolor4.btn:hover,.bgcolor4.btn:focus,#littleblock.bgcolor4>a,#footer.bgcolor4{
-	color:#FFFFFF;
-	background-color: #4D8896;
-	border-color: #4D8896;
-}
-
-.bgpic5{
-	background-image:url("http://7xnkwe.com1.z0.glb.clouddn.com/46146245.jpg");
-	background-color: #285284;
-	background-position: top center;
-}
-.bgcolor5,#topbar.bgcolor5 a{
-	color:#285284;
-	background-color: #FFFFFF;
-	border-color: #285284;
-}
-.bgcolor5.btn:hover,.bgcolor5.btn:focus,#littleblock.bgcolor5>a,#footer.bgcolor5{
-	color:#FFFFFF;
-	background-color: #285284;
-	border-color: #285284;
-}
-
-.bgpic6{
-	background-image:url("http://7xnkwe.com1.z0.glb.clouddn.com/47512397.jpg");
-	background-color: #ED643C;
-	background-position: top center;
-}
-.bgcolor6,#topbar.bgcolor6 a{
-	color:#ED643C;
-	background-color: #FFFFFF;
-	border-color: #ED643C;
-}
-.bgcolor6.btn:hover,.bgcolor6.btn:focus,#littleblock.bgcolor6>a,#footer.bgcolor6{
-	color:#FFFFFF;
-	background-color: #ED643C;
-	border-color: #ED643C;
 }
 
 #topbar a:hover{
